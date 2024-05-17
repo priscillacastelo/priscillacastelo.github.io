@@ -1,0 +1,1288 @@
+<!doctype html>
+<html class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<header  class="pl-2 pr-2 flex flex-wrap sm:justify-start sm:flex-nowrap w-full bg-white text-sm py-4 dark:bg-neutral-800" >
+  <nav class="max-w-[85rem] w-full mx-auto px-4 sm:flex sm:items-center sm:justify-between" aria-label="Global">
+    <img src="logo.jpeg" alt="Brunch Maria Inês" style="height:150px;">
+    <div class="flex flex-row items-center gap-5 mt-5 sm:justify-end sm:mt-0 sm:ps-5">
+      <a class="font-medium text-gray-600" href="index.html" aria-current="page">Home</a>
+      <a class="font-medium text-gray-600 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" href="eventos.html">Eventos</a>
+      <a class="font-medium text-blue-500 hover:text-gray-400 dark:text-neutral-400 dark:hover:text-neutral-500" href="menu.html">Menu</a>
+    </div>
+  </nav>
+</header>
+<body>
+
+<div class="pl-2 pr-2 container mx-auto">
+  <div class="overflow-auto">
+    <div class="border-b-2 border-gray-200 dark:border-neutral-700">
+  <nav class="-mb-0.5 flex space-x-6">
+    <a class="py-4 px-1 inline-flex items-center gap-2 border-b-2 border-transparent text-sm whitespace-nowrap font-bold text-gray-800 hover:text-blue-600 focus:outline-none focus:text-blue-600 dark:text-neutral-500 dark:hover:text-blue-500 active" href="#hamburgueres" aria-current="page">
+      Burgers
+    </a>
+    <a class="py-4 px-1 inline-flex items-center gap-2 border-b-2 border-transparent text-sm whitespace-nowrap font-bold text-gray-800 hover:text-blue-600 focus:outline-none focus:text-blue-600 dark:text-neutral-500 dark:hover:text-blue-500 active" href="#Panquecas-&-Waffles" aria-current="page">
+      Pancakes & Waffle
+    </a>
+    <a class="py-4 px-1 inline-flex items-center gap-2 border-b-2 border-transparent text-sm whitespace-nowrap font-bold text-gray-800 hover:text-blue-600 focus:outline-none focus:text-blue-600 dark:text-neutral-500 dark:hover:text-blue-500 active" href="#Brunch" aria-current="page">
+      Brunch
+    </a>
+    <a class="py-4 px-1 inline-flex items-center gap-2 border-b-2 border-transparent text-sm whitespace-nowrap font-bold text-gray-800 hover:text-blue-600 focus:outline-none focus:text-blue-600 dark:text-neutral-500 dark:hover:text-blue-500 active" href="#Tostas-e-Pastelaria" aria-current="page">
+      Toasts and Pastries
+    </a>
+     <a class="py-4 px-1 inline-flex items-center gap-2 border-b-2 border-transparent text-sm whitespace-nowrap font-bold text-gray-800 hover:text-blue-600 focus:outline-none focus:text-blue-600 dark:text-neutral-500 dark:hover:text-blue-500 active" href="#Salgados" aria-current="page">
+      Savory Snacks
+    </a>
+    </a>
+     <a class="py-4 px-1 inline-flex items-center gap-2 border-b-2 border-transparent text-sm whitespace-nowrap font-bold text-gray-800 hover:text-blue-600 focus:outline-none focus:text-blue-600 dark:text-neutral-500 dark:hover:text-blue-500 active" href="#Saladas" aria-current="page">
+      Salads
+    </a>
+    <a class="py-4 px-1 inline-flex items-center gap-2 border-b-2 border-transparent text-sm whitespace-nowrap font-bold text-gray-800 hover:text-blue-600 focus:outline-none focus:text-blue-600 dark:text-neutral-500 dark:hover:text-blue-500 active" href="#Ovos" aria-current="page">
+      Eggs
+    </a>
+    <a class="py-4 px-1 inline-flex items-center gap-2 border-b-2 border-transparent text-sm whitespace-nowrap font-bold text-gray-800 hover:text-blue-600 focus:outline-none focus:text-blue-600 dark:text-neutral-500 dark:hover:text-blue-500 active" href="#Bowls" aria-current="page">
+      Bowls
+    </a>
+    <a class="py-4 px-1 inline-flex items-center gap-2 border-b-2 border-transparent text-sm whitespace-nowrap font-bold text-gray-800 hover:text-blue-600 focus:outline-none focus:text-blue-600 dark:text-neutral-500 dark:hover:text-blue-500 active" href="#Sobremesas" aria-current="page">
+      Desserts
+    </a>
+    <a class="py-4 px-1 inline-flex items-center gap-2 border-b-2 border-transparent text-sm whitespace-nowrap font-bold text-gray-800 hover:text-blue-600 focus:outline-none focus:text-blue-600 dark:text-neutral-500 dark:hover:text-blue-500 active" href="#Cafetaria" aria-current="page">
+      Coffe
+    </a>
+    <a class="py-4 px-1 inline-flex items-center gap-2 border-b-2 border-transparent text-sm whitespace-nowrap font-bold text-gray-800 hover:text-blue-600 focus:outline-none focus:text-blue-600 dark:text-neutral-500 dark:hover:text-blue-500 active" href="#Bebidas" aria-current="page">
+      Drinks
+    </a>
+
+
+  </nav>
+</div>
+  </div>
+<! –– Title ––>
+  <h1 id="hamburgueres" class="pl-2 py-5 text-2xl font-bold text-gray-800 dark:text-white">Burgers</h1>
+<! –– End of Title ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Maria Inês Burger €10
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Hamburger bun, 150g beef, egg, salad, onion, bacon, cheddar cheese and sweet potato
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+  <! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Cheeseburger €10
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Brioche bread 150g beef, cheddar cheese, onion, bacon and sweet potato
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+  <! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Vegetarian Burger €10
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Hamburger bun, veggie burger, salad, tomato and sweet potato
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+  <! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Lentil Burger €10
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Hamburger bun, lentil burger, salad and sweet potato
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+  <! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Steak on Bread 8,50€
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Rustic bread, sirloin steak, egg and parmesan cheese with sweet potato
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+  <! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Francesinha 10€
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Sandwich bread, beef, fresh sausage, chorizo, cheese, ham and francesinha sauce
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+  <! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Hot Dog 4€
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Hot dog bun, sausage, cheese and ham
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+  <! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Special Hot Dog €7.50
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Hot dog bun, sausage, cheese, ham, francesinha sauce and French fries
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Meat Alheira 10€
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Vinhais’ alheira with egg, salad and fries
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Grilled Chicken Steak €8
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Salad, cherry tomato and sweet potato
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Beef Steak 20€
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      300g veal steak, egg, cherry tomatoes, salad and sweet potato
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Pulled beef    15€
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Slow roasted veal steak with barbecue sauce and sweet potatoes
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+
+<! –– Title ––>
+  <h1 id="Panquecas-&-Waffles" class="pl-2 py-5 text-2xl font-bold text-gray-800 dark:text-white">Pancakes & Waffles</h1>
+<! –– End of Title ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Simple Pancake with powdered sugar (4 units) €4
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Pancake with Banana, peanut butter and honey €7.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Pancake with Banana, ice cream and nutella €7.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Simple Waffle with powdered sugar (2 units) €4
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Waffle with Banana, peanut butter and honey €7.50
+    </h3>
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Waffle with Banana, ice cream and nutella €7.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+ <! –– Title ––>
+  <h1 id="Brunch" class="pl-2 py-5 text-2xl font-bold text-gray-800 dark:text-white">Brunch</h1>
+<! –– End of Title ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Oporto Brunch 15,00€
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Scrambled or fried eggs, bacon, cherry tomatoes, sweet beans, salad, toast and pancakes. Orange juice, coffee or Americano.
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Iog Brunch 16,00€
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Bowl of natural yogurt with fruit granola and honey. Scrambled or fried eggs, salad and cherry tomatoes, pancakes, orange juice, coffee or Americano.
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Brunch Maria Inês (to share) €18.00
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      3 scrambled or fried eggs, 2 slices of bacon, salad, cherry tomatoes, sweet beans, toast, pancake, croissant, jam and butter, 2 juices and 2 coffees or Americanos.
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Kids Brunch 8,00€
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Scrambled or fried egg, bacon or sausage, mini pancakes, jam or butter, orange juice
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+ <! –– Title ––>
+  <h1 id="Tostas-e-Pastelaria" class="pl-2 py-5 text-2xl font-bold text-gray-800 dark:text-white">Toasts and Pastries</h1>
+<! –– End of Title ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Slice of cake €2.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Croissant 1.50€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Croissant with cheese €2.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Croissant with ham €2.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Croissant with cheese and ham 3.50€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Toast   2.50€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Grilled ham and cheese sandwich  3.50€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Grilled cheese sandwich 2.50€
+    </h3>
+
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Grilled ham sandwich 2.50€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Grilled ham and cheese sandwich with tomato and oregano  4.50€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Salmon Toast €10
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Rustic bread with smoked salmon, avocado cream and salad + chips
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Chicken Toast €7.50
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Rustic bread with grilled chicken, avocado cream and salad + chips
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Mushroom Toast €7.50
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Rustic bread, fresh mushrooms, avocado cream and salad
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Iberian Prosciutto Toast 7,50€
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Rustic bread with Iberian prosciutto, parmesan cheese and salad + chips
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Shrimp Toast €10
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Rustic bread with sautéed garlic shrimp, avocado cream and salad
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+
+ <! –– Title ––>
+  <h1 id="Salgados" class="pl-2 py-5 text-2xl font-bold text-gray-800 dark:text-white">Savory Snacks</h1>
+<! –– End of Title ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Meat Cake 2.50€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Rissoles 2.00€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Garlic Bread €2.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Chicken Wings (4 units) €4.00
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      In the airfryer with barbecue sauce
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Slice of Quiche €2.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Title ––>
+  <h1 id="Saladas" class="pl-2 py-5 text-2xl font-bold text-gray-800 dark:text-white">Salads</h1>
+<! –– End of Title ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Tuna Salad €8.00
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Spinach and ricotta ravioli, salad, cherry tomatoes, corn and tuna fillet
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Chicken Salad €7.00
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Spinach and ricotta ravioli, salad, cherry tomatoes, corn and grilled chicken breasts
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Surimi Sticks Salad
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Spinach and ricotta ravioli, salad, cherry tomatoes, corn and Surimi Sticks
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Tropical Salad €7.00
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Salad, carrots, cherry tomatoes, corn and seasonal fruit
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Salmon Salad €10
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Spinach and ricotta ravioli, salad and smoked salmon
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Title ––>
+  <h1 id="Ovos" class="pl-2 pt-5 text-2xl font-bold text-gray-800 dark:text-white">Eggs</h1>
+  <p class="pl-2 text-gray-500 dark:text-neutral-400">
+      Scrambled, fried or boiled (2 units)
+    </p>
+<! –– End of Title ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      On toast €5
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      With bacon and salad
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      On croissant €5
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      With bacon and salad
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      On waffle €7.50
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      With bacon and salad
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Broken eggs €13
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Fried eggs with French fries and Iberico ham
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Title ––>
+  <h1 id="Bowls" class="pl-2 py-5 text-2xl font-bold text-gray-800 dark:text-white">Bowls</h1>
+<! –– End of Title ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Chocapics cereal bowl €3
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Estrelitas cereal bowl €3
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Mix cereal bowl €3.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Bowl of natural yogurt, granola, fruit and honey €4.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Açaí bowl, fruit, granola and honey €7
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Title ––>
+  <h1 id="Sobremesas" class="pl-2 py-5 text-2xl font-bold text-gray-800 dark:text-white">Desserts</h1>
+<! –– End of Title ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Slice of cake €2.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Chocolate mousse €2.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      French pudding €2.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Abade de Priscos Pudding €3.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Fruit salad €2.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Petit Gateau €3.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Title ––>
+  <h1 class="pl-2 py-5 text-2xl font-bold text-gray-800 dark:text-white">Extras</h1>
+<! –– End of Title ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Extras 1,00€
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Egg, bread, beans, tomato, butter, jam, nutella, honey, cheese, ham, pancake, fruit, caramel, ice cream, lettuce mix
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Extras 1,50€
+    </h3>
+    <p class="mt-2 text-gray-500 dark:text-neutral-400">
+      Fruit, peanut butter, marshmallow, granola, avocado cream, potato chips, bacon, acai, mushrooms
+    </p>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Title ––>
+  <h1 id="Cafetaria" class="pl-2 py-5 text-2xl font-bold text-gray-800 dark:text-white">Coffee</h1>
+<! –– End of Title ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Coffee €1
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Decaf 1€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Americano 1.50€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Double Coffee €2
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Lemon Tea (small) 1€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Latte 1€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Tea 1.50€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Iced coffee 1.20€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Iced Americano 1.50€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Coffee with cream €1.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Coffee with milk 1.50€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Glass of milk €1
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Cappuccino 3€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Cappuccino Nutella 4€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Cappuccino Nutella marshmallow 5€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Banana and strawberry smoothie €5
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Protein Shake €7
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Title ––>
+  <h1 id="Bebidas" class="pl-2 py-5 text-2xl font-bold text-gray-800 dark:text-white">Drinks</h1>
+<! –– End of Title ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Water €1.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Castelo sparkling water €1.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Ice tea 2€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Coca cola 2€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Seven up 2€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Fanta 2€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Compal 2€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Kombucha 2.50€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Natural orange juice €3
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Red Bull 3€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Tonic water €2.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Beer 2€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Non-alcoholic beer €2
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Draught beer 2€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Cider €2.50
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Sangria glass €7 1l jug €15
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Grey Goose 10€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Poliakov 6€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Jameson 10€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Whisky label 5 6€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Gunpowder Irish Gin 10€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Gibson 6€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Beirão Liqueur €4
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Port Wine €6
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Port tonic €10
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Champagne Moet Chandon (75cl) 80€
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+<! –– Menu Item ––>
+<div class="my-2 flex flex-col bg-white border shadow-sm rounded-xl dark:bg-neutral-900 dark:border-neutral-700 dark:shadow-neutral-700/70">
+  <div class="p-4 md:p-5">
+    <h3 class="text-lg font-bold text-gray-800 dark:text-white">
+      Porto Cruz Sparkling Wine (75cl) €20
+    </h3>
+
+  </div>
+  </div>
+<! –– End of Menu Item ––>
+
+
+</div>
+</body>
+</html>
